@@ -27,7 +27,7 @@ Shrinks macOS VMWare virtual machine.
 
 #### [macos-host-cleanup-vmware-vms.command](macos-host-cleanup-vmware-vms.command)
 
-Defragments and shrinks all VMWare virtual machines on a macOS host.
+Defragments and shrinks all VMWare Fusion virtual machines that are present in `~/Documents/Virtual Machines` on your macOS host.
 
 1. Save this file in your macOS host, for example into `~/Documents/Virtual Machines`
 2. In Terminal, `cd` to the folder where you saved the file and type `chmod gou+x macos-host-cleanup-vmware-vms.command`, press Enter
@@ -35,7 +35,7 @@ Defragments and shrinks all VMWare virtual machines on a macOS host.
 
 #### [macos-create-iso.command](macos-create-iso.command)
 
-Produces a macOS ISO file from `Install macOS nnnnn.app`. You can then install macOS as a guest system in your VMWare. 
+Produces a macOS ISO file from `Install macOS nnnnn.app`. You can then install macOS as a guest system in your VMWare.
 
 1. In your macOS host, download the operating system installer using App Store, so you have something like `/Applications/Install macOS Monterey.app`
 2. Save this file for example in `~/Desktop`
